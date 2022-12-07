@@ -1,9 +1,17 @@
+// import { useState } from "react";
+
 // Code Keypad Component Here
 
-function Keypad (){
-    return (
-        <div></div>
-    )
+function Keypad() {
+  //   const [password, setPassword] = useState("");
+  return (
+    <input
+      type="password"
+      onChange={() => {
+        console.log("Entering password...");
+      }}
+    />
+  );
 }
 
 export default Keypad;
